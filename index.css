@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin: 10;
+    background-color: wheat;
+}
+
+#main-container {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    align-items: center;
+    background-color: aqua;
+}
+
+.choice-button-container {
+    display:block;
+    flex-wrap:wrap-reverse;
+    /* gap: 30px; */
+    margin-top: 20px;
+    align-items: center;
+    cursor:pointer;
+}
+
+.clickNext {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#next-button {
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+}
